@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Manan Goel</div>
+        <div>
+            <ul class="navlinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact me">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Manan Goel</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#home" onclick="togglemenu()">Home</a></li>
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                <li><a href="#certifications" onclick="togglemenu()">Certifications</a></li>
+                <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li><a href="#contact me" onclick="togglemenu()">Contact Me</a></li>  
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./image/avataaars.png" alt="Manan Goel profile picture">
+        </div>
+        <div class="section_text">
+            <p class="section__text__p1">Hi,My name is</p>
+            <h1 class="title">Manan Goel</h1>
+            <p class="section__text__p2">Software Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./CURRICULUM VITAE.pdf')">
+                Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                Contact Info</button>
+            </div>
+            <div id="social-container">
+                <img src="./image/Linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href= https= '//www.linkedin.com/in/manan-goel-9192b9278/'" class="img-1">
+                <img src="./image/Github.png" alt="My Github Profile" class="icon" onclick="location.href= https= '//github.com/GoelManan10'"class="img-2">
+                <img src="./image/insta.avif" alt="My Insta Profile" class="icon" onclick="location.href= https= '//www.instagram.com/whoomanan/'"class="img-3">
+                <img src="./image/x.avif" alt="My Twitter Profile" class="icon" onclick="location.href= https= '  //twitter.com/MANANGOEL112592'"class="img-4">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to know more</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./image/7118756_3426526.jpg" alt="Profile Picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./image/Bullet.png" alt="Experience icon" class="icon"/>
+                        <h3>Experience</h3>
+                        <p>2+ years <br> Software Development</p>
+                    </div>
+                    
+                    <div class="details-container">
+                        <img src="./image/Bullet.png" alt="Education icon" class="icon"/>
+                        <h3>Education</h3>
+                        <p>BE. Bachelors Degree <br> Bsc. in Data Science</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Manan Goel is a highly skilled and dedicated software developer with a passion for crafting efficient and innovative solutions. With a keen eye for detail and a strong foundation in computer science, Manan thrives in tackling complex technical challenges and delivering high-quality software products. With expertise in various programming languages, frameworks, and tools, Manan excels in both front-end and back-end development, contributing to the entire software development lifecycle. Known for his collaborative spirit and excellent communication skills, Manan is an asset to any development team, bringing creativity, problem-solving abilities, and a drive for continuous improvement to every project he undertakes.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./image/down arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Software Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./image/checkmark.webp" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Python</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./image/checkmark.webp" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>C++</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./image/checkmark.webp" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Rust</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./image/checkmark.webp" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Java</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./image/checkmark.webp" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Ruby</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">App Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./image/checkmark.webp" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Python</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./image/checkmark.webp" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Java</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./image/checkmark.webp" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>React JS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./image/checkmark.webp" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Flutter</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./image/down arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./image/7118756_3426526.jpg" alt="Project 1" class="project-img1">
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+                </div>
+            </div>
+            <br>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./image/4102879_971.jpg" alt="Project 2" class="project-img2">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+                </div>
+            </div>
+            <br>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./image/image1.jpg" alt="Project 3" class="project-img3">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <img src="./image/down arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./image/email.jpg" alt="Email icon" class="icon contact-icon"/>
+                <p><a href="mailto:goelmanan10@gmail.com">goelmanan10@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./image/linkedin.png" alt="LinkedIn icon" class="icon contact-icon"/>
+                <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="navlinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact me">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Manan Goel. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
